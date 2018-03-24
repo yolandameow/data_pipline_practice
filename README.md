@@ -53,16 +53,6 @@ classifier and score using the model.  The pipeline should have these steps:
       negative, neutral and positive sentiment.
     * Output a sorted list of cities by the predicted positive sentiment score to the output file.
 
-## Notes/Hints/Suggestions
-
- * We have provided a skeleton file to get you started named `pipeline.py`, and a
-   script `run.sh` that will execute this luigi pipeline.
- * You must use the `luigi` package.
- * You must use Python (any version is fine).
- * Feel free to use any Python packages.  We used `pandas`, `scikit-learn`, `numpy`
-   (as seen in the included requirements.txt).
- * Do not worry too much about run-time/memory efficiency.  So long as it runs
-   within 15 minutes, it should be fine.
 
 ## References
 
