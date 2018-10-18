@@ -6,3 +6,6 @@ jobs:
     steps:
       - checkout
       - run: echo notaccommand
+    branches:
+      only:
+        - test_branch
